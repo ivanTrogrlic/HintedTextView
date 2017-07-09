@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/ivanTrogrlic/HintedTextView.svg)](https://jitpack.io/#ivanTrogrlic/HintedTextView)
+
 # HintedTextView
 
 I had a requirement for a TextView with a hint, something similar to the TextInputLayout but not exactly.
