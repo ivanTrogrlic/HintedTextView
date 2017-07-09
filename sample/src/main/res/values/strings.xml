@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hinted TextView</string>
+    <string name="text_label">Time</string>
+    <string name="button_label">Reset</string>
+</resources>

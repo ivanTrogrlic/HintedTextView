@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HintedTextView">
+        <attr name="hinted_label" format="reference" />
+        <attr name="hinted_label_color" format="reference|color" />
+        <attr name="hinted_value" format="reference" />
+        <attr name="hinted_value_color" format="reference|color" />
+        <attr name="hinted_divider_color" format="reference|color" />
+    </declare-styleable>
+
+</resources>

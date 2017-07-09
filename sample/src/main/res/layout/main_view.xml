@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.hintedtextview.sample.HintedTextView
+        android:id="@+id/hinted_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:hinted_divider_color="@color/colorPrimary"
+        app:hinted_label="@string/text_label"
+        app:hinted_label_color="@color/colorText"
+        app:hinted_value_color="@color/colorPrimary" />
+
+</LinearLayout>
