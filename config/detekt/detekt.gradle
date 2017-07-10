@@ -1,0 +1,9 @@
+detekt {
+    version "1.0.0.M12.3"
+    profile("main") {
+        input = "./src/main/java"
+        config = "$rootProject.rootDir/config/detekt/detekt.yml"
+        filters = ".*/resources/.*,.*/tmp/.*"
+        output = "$project.buildDir/reports/detekt/detekt.xml"
+    }
+}
