@@ -3,12 +3,15 @@ plugins {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: '../config/static_analysis.gradle'
 
-group = 'com.github.ivanTrogrlic'
+ext {
+    PUBLISH_GROUP_ID = 'com.ivantrogrlic'
+    PUBLISH_ARTIFACT_ID = 'hinted-text-view'
+    PUBLISH_VERSION = '1.0'
+}
 
 android {
     compileSdkVersion 25
@@ -40,6 +43,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 }
+
 repositories {
     mavenCentral()
 }
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
