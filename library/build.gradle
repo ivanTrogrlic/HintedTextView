@@ -3,9 +3,12 @@ plugins {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: '../config/static_analysis.gradle'
+
+group = 'com.github.ivanTrogrlic'
 
 android {
     compileSdkVersion 25
