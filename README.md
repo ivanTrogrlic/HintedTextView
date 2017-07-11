@@ -1,9 +1,8 @@
-[![](https://jitpack.io/v/ivanTrogrlic/HintedTextView.svg)](https://jitpack.io/#ivanTrogrlic/HintedTextView)
-
 # HintedTextView
 
-I had a requirement for a TextView with a hint, something similar to the TextInputLayout but not exactly.
-So I decided to create a small lib around it. 
+HintedTextView is a small animated TextView with a hint. Similar behaviour as TextEditLayout. 
+
+![aa3dix](http://i.makeagif.com/media/7-11-2017/aa3dix.gif)
 
 Download
 --------
