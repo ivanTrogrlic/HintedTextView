@@ -10,16 +10,7 @@ Download
 #### Gradle:
 
 ```groovy
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-    
-dependencies {
-	  compile 'com.github.ivanTrogrlic:HintedTextView:v1.0'
-}
+compile 'com.ivantrogrlic:hinted-text-view:1.0'
 ```
 
 
@@ -27,9 +18,10 @@ dependencies {
 
 ```xml
 <dependency>
-	 <groupId>com.github.ivanTrogrlic</groupId>
-	 <artifactId>HintedTextView</artifactId>
-	 <version>v1.0</version>
+  <groupId>com.ivantrogrlic</groupId>
+  <artifactId>hinted-text-view</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
 </dependency>
 ```
 
