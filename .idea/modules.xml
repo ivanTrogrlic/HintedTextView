@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HintedTextView.iml" filepath="$PROJECT_DIR$/HintedTextView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HintedTextView.iml" filepath="$PROJECT_DIR$/HintedTextView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hinted-text-view.iml" filepath="$PROJECT_DIR$/hinted-text-view.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>
